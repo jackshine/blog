@@ -5,6 +5,8 @@
 *.ear
 *.iml
 *.ipr
+*.idea
+/libraries
 /bin
 .*
 !.gitignore
