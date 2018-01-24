@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.liuyanzhao.blog.dao.OptionsMapper">
-  <resultMap id="BaseResultMap" type="com.liuyanzhao.blog.model.Options">
-    <!--
-      WARNING - @mbggenerated
-    -->
-    <id column="option_id" jdbcType="INTEGER" property="optionId" />
-    <result column="option_aboutsite_avatar" jdbcType="VARCHAR" property="optionAboutsiteAvatar" />
-    <result column="option_aboutsite_content" jdbcType="VARCHAR" property="optionAboutsiteContent" />
-    <result column="option_aboutsite_github" jdbcType="VARCHAR" property="optionAboutsiteGithub" />
-    <result column="option_aboutsite_qq" jdbcType="VARCHAR" property="optionAboutsiteQq" />
-    <result column="option_aboutsite_title" jdbcType="VARCHAR" property="optionAboutsiteTitle" />
-    <result column="option_aboutsite_wechat" jdbcType="VARCHAR" property="optionAboutsiteWechat" />
-    <result column="option_aboutsite_weibo" jdbcType="VARCHAR" property="optionAboutsiteWeibo" />
-    <result column="option_meta_descrption" jdbcType="VARCHAR" property="optionMetaDescrption" />
-    <result column="option_meta_keyword" jdbcType="VARCHAR" property="optionMetaKeyword" />
-    <result column="option_site_descrption" jdbcType="VARCHAR" property="optionSiteDescrption" />
-    <result column="option_site_title" jdbcType="VARCHAR" property="optionSiteTitle" />
-    <result column="option_status" jdbcType="INTEGER" property="optionStatus" />
-    <result column="option_tongji" jdbcType="VARCHAR" property="optionTongji" />
-  </resultMap>
-  <sql id="Base_Column_List">
-    <!--
-      WARNING - @mbggenerated
-    -->
-    option_id, option_aboutsite_avatar, option_aboutsite_content, option_aboutsite_github, 
-    option_aboutsite_qq, option_aboutsite_title, option_aboutsite_wechat, option_aboutsite_weibo, 
-    option_meta_descrption, option_meta_keyword, option_site_descrption, option_site_title, 
-    option_status, option_tongji
-  </sql>
+
   <resultMap id="BaseResultMap" type="com.liuyanzhao.blog.entity.Options">
     <id column="option_id" jdbcType="INTEGER" property="optionId" />
     <result column="option_site_title" jdbcType="VARCHAR" property="optionSiteTitle" />

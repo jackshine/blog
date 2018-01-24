@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.liuyanzhao.blog.dao.ArticleMapper">
-  <resultMap id="BaseResultMap" type="com.liuyanzhao.blog.model.Article">
-    <!--
-      WARNING - @mbggenerated
-    -->
-    <id column="article_id" jdbcType="INTEGER" property="articleId" />
-    <result column="article_child_category_id" jdbcType="INTEGER" property="articleChildCategoryId" />
-    <result column="article_comment_count" jdbcType="INTEGER" property="articleCommentCount" />
-    <result column="article_content" jdbcType="VARCHAR" property="articleContent" />
-    <result column="article_is_comment" jdbcType="INTEGER" property="articleIsComment" />
-    <result column="article_like_count" jdbcType="INTEGER" property="articleLikeCount" />
-    <result column="article_order" jdbcType="INTEGER" property="articleOrder" />
-    <result column="article_parent_category_id" jdbcType="INTEGER" property="articleParentCategoryId" />
-    <result column="article_post_time" jdbcType="TIMESTAMP" property="articlePostTime" />
-    <result column="article_status" jdbcType="INTEGER" property="articleStatus" />
-    <result column="article_tag_ids" jdbcType="VARCHAR" property="articleTagIds" />
-    <result column="article_title" jdbcType="VARCHAR" property="articleTitle" />
-    <result column="article_update_time" jdbcType="TIMESTAMP" property="articleUpdateTime" />
-    <result column="article_user_id" jdbcType="INTEGER" property="articleUserId" />
-    <result column="article_view_count" jdbcType="INTEGER" property="articleViewCount" />
-  </resultMap>
+
   <sql id="Base_Column_List">
     <!--
       WARNING - @mbggenerated
@@ -49,11 +30,7 @@
   <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.liuyanzhao.blog.entity.Article">
     <result column="article_content" jdbcType="LONGVARCHAR" property="articleContent" />
   </resultMap>
-  <sql id="Base_Column_List">
-    article_id, article_user_id, article_title, article_parent_category_id, article_child_category_id, 
-    article_tag_ids, article_view_count, article_comment_count, article_like_count, article_post_time, 
-    article_update_time, article_is_comment, article_status, article_order
-  </sql>
+
   <sql id="Blob_Column_List">
     article_content
   </sql>

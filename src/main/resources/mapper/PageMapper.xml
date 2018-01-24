@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.liuyanzhao.blog.dao.PageMapper">
-  <resultMap id="BaseResultMap" type="com.liuyanzhao.blog.model.Page">
-    <!--
-      WARNING - @mbggenerated
-    -->
-    <id column="page_id" jdbcType="INTEGER" property="pageId" />
-    <result column="page_comment_count" jdbcType="INTEGER" property="pageCommentCount" />
-    <result column="page_content" jdbcType="VARCHAR" property="pageContent" />
-    <result column="page_create_time" jdbcType="TIMESTAMP" property="pageCreateTime" />
-    <result column="page_key" jdbcType="VARCHAR" property="pageKey" />
-    <result column="page_status" jdbcType="INTEGER" property="pageStatus" />
-    <result column="page_title" jdbcType="VARCHAR" property="pageTitle" />
-    <result column="page_update_time" jdbcType="TIMESTAMP" property="pageUpdateTime" />
-    <result column="page_view_count" jdbcType="INTEGER" property="pageViewCount" />
-  </resultMap>
-  <sql id="Base_Column_List">
-    <!--
-      WARNING - @mbggenerated
-    -->
-    page_id, page_comment_count, page_content, page_create_time, page_key, page_status, 
-    page_title, page_update_time, page_view_count
-  </sql>
+
   <resultMap id="BaseResultMap" type="com.liuyanzhao.blog.entity.Page">
     <id column="page_id" jdbcType="INTEGER" property="pageId" />
     <result column="page_key" jdbcType="VARCHAR" property="pageKey" />

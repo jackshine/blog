@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.liuyanzhao.blog.dao.LinkMapper">
-  <resultMap id="BaseResultMap" type="com.liuyanzhao.blog.model.Link">
-    <!--
-      WARNING - @mbggenerated
-    -->
-    <id column="link_id" jdbcType="INTEGER" property="linkId" />
-    <result column="link_create_time" jdbcType="TIMESTAMP" property="linkCreateTime" />
-    <result column="link_description" jdbcType="VARCHAR" property="linkDescription" />
-    <result column="link_image" jdbcType="VARCHAR" property="linkImage" />
-    <result column="link_name" jdbcType="VARCHAR" property="linkName" />
-    <result column="link_order" jdbcType="INTEGER" property="linkOrder" />
-    <result column="link_owner_contact" jdbcType="VARCHAR" property="linkOwnerContact" />
-    <result column="link_owner_nickname" jdbcType="VARCHAR" property="linkOwnerNickname" />
-    <result column="link_status" jdbcType="INTEGER" property="linkStatus" />
-    <result column="link_update_time" jdbcType="TIMESTAMP" property="linkUpdateTime" />
-    <result column="link_url" jdbcType="VARCHAR" property="linkUrl" />
-  </resultMap>
-  <sql id="Base_Column_List">
-    <!--
-      WARNING - @mbggenerated
-    -->
-    link_id, link_create_time, link_description, link_image, link_name, link_order, link_owner_contact, 
-    link_owner_nickname, link_status, link_update_time, link_url
-  </sql>
+
   <resultMap id="BaseResultMap" type="com.liuyanzhao.blog.entity.Link">
     <id column="link_id" jdbcType="INTEGER" property="linkId" />
     <result column="link_url" jdbcType="VARCHAR" property="linkUrl" />

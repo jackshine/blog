@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c492002d-96c0-4fe8-a7c2-25803d3e3c46" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/dao/ArticleMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/dao/CategoryMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/dao/LinkMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/dao/MenuMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/dao/NoticeMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/dao/OptionsMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/dao/PageMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/dao/TagMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/dao/UserMapper.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/LinkMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LinkMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/OptionsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/OptionsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/PageMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PageMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,33 +23,148 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <file leaf-file-name="MenuMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneratorMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/util/GeneratorMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+            <state relative-caret-position="19">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1516789095876" expanded="true" signature="1019:1128" ph="select from menu" />
+                <marker date="1516789095876" expanded="true" signature="1214:1277" ph="delete from " />
+                <marker date="1516789095876" expanded="true" signature="1365:1711" ph="insert into menu... " />
+                <marker date="1516789095876" expanded="true" signature="3131:3801" ph="update menu " />
+                <marker date="1516789095876" expanded="true" signature="3901:4254" ph="update menu " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuMapperCustom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MenuMapperCustom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1516784874741" expanded="true" signature="518:782" ph="SELECT FROM menu" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoticeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1516789095561" expanded="true" signature="1126:1241" ph="select from notice" />
+                <marker date="1516789095561" expanded="true" signature="1327:1396" ph="delete from " />
+                <marker date="1516789095561" expanded="true" signature="1486:1900" ph="insert into notice... " />
+                <marker date="1516789095561" expanded="true" signature="2932:3698" ph="update notic... " />
+                <marker date="1516789095561" expanded="true" signature="3800:4221" ph="update notic... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptionsMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OptionsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1516789096231" expanded="true" signature="2049:2165" ph="select from options" />
+                <marker date="1516789096231" expanded="true" signature="2251:2321" ph="delete from " />
+                <marker date="1516789096231" expanded="true" signature="2412:3381" ph="insert into options... " />
+                <marker date="1516789096231" expanded="true" signature="6410:8170" ph="update optio... " />
+                <marker date="1516789096231" expanded="true" signature="8273:9242" ph="update optio... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageMapperCustom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PageMapperCustom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1516789095459" expanded="true" signature="771:877" ph="select from tag" />
+                <marker date="1516789095459" expanded="true" signature="963:1023" ph="delete from " />
+                <marker date="1516789095459" expanded="true" signature="1110:1322" ph="insert into tag... " />
+                <marker date="1516789095459" expanded="true" signature="2294:2679" ph="update tag t... " />
+                <marker date="1516789095459" expanded="true" signature="2778:2990" ph="update tag s... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagMapperCustom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TagMapperCustom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1516784874754" expanded="true" signature="460:693" ph="SELECT FROM tag" />
+                <marker date="1516784874754" expanded="true" signature="1630:1760" ph="SELECT FROM tag" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1516789096065" expanded="true" signature="1461:1570" ph="select from user" />
+                <marker date="1516789096065" expanded="true" signature="1656:1719" ph="delete from " />
+                <marker date="1516789096065" expanded="true" signature="1807:2398" ph="insert into user... " />
+                <marker date="1516789096065" expanded="true" signature="4547:5701" ph="update user " />
+                <marker date="1516789096065" expanded="true" signature="5801:6413" ph="update user " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapperCustom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapperCustom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <marker date="1516784874757" expanded="true" signature="700:811" ph="SELECT FROM user" />
+                <marker date="1516784874757" expanded="true" signature="966:1179" ph="SELECT FROM user" />
+                <marker date="1516784874757" expanded="true" signature="1323:1487" ph="SELECT FROM user" />
+                <marker date="1516784874757" expanded="true" signature="1634:1799" ph="SELECT FROM user" />
+                <marker date="1516784874757" expanded="true" signature="1906:2004" ph="SELECT COUNT... article" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PageMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1516789095789" expanded="true" signature="1285:1394" ph="select from page" />
+                <marker date="1516789095789" expanded="true" signature="1480:1543" ph="delete from " />
+                <marker date="1516789095789" expanded="true" signature="1631:2135" ph="insert into page... " />
+                <marker date="1516789095789" expanded="true" signature="3973:4926" ph="update page " />
+                <marker date="1516789095789" expanded="true" signature="5026:5537" ph="update page " />
               </folding>
             </state>
           </provider>
@@ -72,6 +187,15 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/util/GeneratorMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/LinkMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/PageMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/OptionsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
       </list>
     </option>
   </component>
@@ -147,7 +271,24 @@
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,12 +439,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516784926833</updated>
-      <workItem from="1516784928628" duration="2774000" />
+      <workItem from="1516784928628" duration="3233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2774000" />
+    <option name="totallyTimeSpent" value="3233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -327,7 +468,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -390,9 +531,261 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/util/GeneratorMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanzhao/blog/model/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3132">
+          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <marker date="1516789095632" expanded="true" signature="2302:2467" ph="select , fro... " />
+            <marker date="1516789095632" expanded="true" signature="2553:2625" ph="delete from " />
+            <marker date="1516789095632" expanded="true" signature="2716:3673" ph="insert into article... " />
+            <marker date="1516789095632" expanded="true" signature="6766:8559" ph="update artic... " />
+            <marker date="1516789095632" expanded="true" signature="8671:9649" ph="update artic... " />
+            <marker date="1516789095632" expanded="true" signature="9752:10666" ph="update artic... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1710">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516784874729" expanded="true" signature="1980:2272" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="2485:3082" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="3226:3554" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="4097:4552" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="4705:5340" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="5488:5807" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="5948:6246" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="6382:6682" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="6821:7095" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="7248:7578" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="8881:9122" ph="UPDATE `arti... " />
+            <marker date="1516784874729" expanded="true" signature="8957:9074" ph="SELECT count... comment" />
+            <marker date="1516784874729" expanded="true" signature="9267:9459" ph="SELECT FROM article" />
+            <marker date="1516784874729" expanded="true" signature="9405:9449" ph="SELECT max(a... article" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding>
+            <marker date="1516789095965" expanded="true" signature="1134:1255" ph="select from category" />
+            <marker date="1516789095965" expanded="true" signature="1341:1416" ph="delete from " />
+            <marker date="1516789095965" expanded="true" signature="1508:1926" ph="insert into category... " />
+            <marker date="1516789095965" expanded="true" signature="3494:4266" ph="update categ... " />
+            <marker date="1516789095965" expanded="true" signature="4370:4795" ph="update categ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CategoryMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516784874732" expanded="true" signature="763:1060" ph="SELECT FROM category" />
+            <marker date="1516784874732" expanded="true" signature="1617:1946" ph="SELECT * FRO... article" />
+            <marker date="1516784874732" expanded="true" signature="2043:2092" ph="DELETE FROM " />
+            <marker date="1516784874732" expanded="true" signature="2690:2834" ph="SELECT FROM category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516784874734" expanded="true" signature="1766:1884" ph="select from comment" />
+            <marker date="1516784874734" expanded="true" signature="1971:2043" ph="delete from " />
+            <marker date="1516784874734" expanded="true" signature="2135:2903" ph="insert into comment... " />
+            <marker date="1516784874734" expanded="true" signature="5551:7030" ph="update comme... " />
+            <marker date="1516784874734" expanded="true" signature="7134:7923" ph="update comme... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommentMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516784874735" expanded="true" signature="712:1004" ph="SELECT FROM comment" />
+            <marker date="1516784874735" expanded="true" signature="1145:1448" ph="SELECT FROM comment" />
+            <marker date="1516784874735" expanded="true" signature="1583:1826" ph="SELECT FROM comment" />
+            <marker date="1516784874735" expanded="true" signature="2266:2493" ph="SELECT FROM comment" />
+            <marker date="1516784874735" expanded="true" signature="2600:2730" ph="SELECT FROM comment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LinkMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding>
+            <marker date="1516789095720" expanded="true" signature="1480:1589" ph="select from link" />
+            <marker date="1516789095720" expanded="true" signature="1675:1738" ph="delete from " />
+            <marker date="1516789095720" expanded="true" signature="1826:2430" ph="insert into link... " />
+            <marker date="1516789095720" expanded="true" signature="4606:5780" ph="update link " />
+            <marker date="1516789095720" expanded="true" signature="5880:6505" ph="update link " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LinkMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516784874738" expanded="true" signature="860:1124" ph="SELECT FROM link" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1516789095876" expanded="true" signature="1019:1128" ph="select from menu" />
+            <marker date="1516789095876" expanded="true" signature="1214:1277" ph="delete from " />
+            <marker date="1516789095876" expanded="true" signature="1365:1711" ph="insert into menu... " />
+            <marker date="1516789095876" expanded="true" signature="3131:3801" ph="update menu " />
+            <marker date="1516789095876" expanded="true" signature="3901:4254" ph="update menu " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MenuMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516784874741" expanded="true" signature="518:782" ph="SELECT FROM menu" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1516789095561" expanded="true" signature="1126:1241" ph="select from notice" />
+            <marker date="1516789095561" expanded="true" signature="1327:1396" ph="delete from " />
+            <marker date="1516789095561" expanded="true" signature="1486:1900" ph="insert into notice... " />
+            <marker date="1516789095561" expanded="true" signature="2932:3698" ph="update notic... " />
+            <marker date="1516789095561" expanded="true" signature="3800:4221" ph="update notic... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1516789095789" expanded="true" signature="1285:1394" ph="select from page" />
+            <marker date="1516789095789" expanded="true" signature="1480:1543" ph="delete from " />
+            <marker date="1516789095789" expanded="true" signature="1631:2135" ph="insert into page... " />
+            <marker date="1516789095789" expanded="true" signature="3973:4926" ph="update page " />
+            <marker date="1516789095789" expanded="true" signature="5026:5537" ph="update page " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OptionsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1516789096231" expanded="true" signature="2049:2165" ph="select from options" />
+            <marker date="1516789096231" expanded="true" signature="2251:2321" ph="delete from " />
+            <marker date="1516789096231" expanded="true" signature="2412:3381" ph="insert into options... " />
+            <marker date="1516789096231" expanded="true" signature="6410:8170" ph="update optio... " />
+            <marker date="1516789096231" expanded="true" signature="8273:9242" ph="update optio... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PageMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1516789095459" expanded="true" signature="771:877" ph="select from tag" />
+            <marker date="1516789095459" expanded="true" signature="963:1023" ph="delete from " />
+            <marker date="1516789095459" expanded="true" signature="1110:1322" ph="insert into tag... " />
+            <marker date="1516789095459" expanded="true" signature="2294:2679" ph="update tag t... " />
+            <marker date="1516789095459" expanded="true" signature="2778:2990" ph="update tag s... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TagMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516784874754" expanded="true" signature="460:693" ph="SELECT FROM tag" />
+            <marker date="1516784874754" expanded="true" signature="1630:1760" ph="SELECT FROM tag" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1516789096065" expanded="true" signature="1461:1570" ph="select from user" />
+            <marker date="1516789096065" expanded="true" signature="1656:1719" ph="delete from " />
+            <marker date="1516789096065" expanded="true" signature="1807:2398" ph="insert into user... " />
+            <marker date="1516789096065" expanded="true" signature="4547:5701" ph="update user " />
+            <marker date="1516789096065" expanded="true" signature="5801:6413" ph="update user " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <marker date="1516784874757" expanded="true" signature="700:811" ph="SELECT FROM user" />
+            <marker date="1516784874757" expanded="true" signature="966:1179" ph="SELECT FROM user" />
+            <marker date="1516784874757" expanded="true" signature="1323:1487" ph="SELECT FROM user" />
+            <marker date="1516784874757" expanded="true" signature="1634:1799" ph="SELECT FROM user" />
+            <marker date="1516784874757" expanded="true" signature="1906:2004" ph="SELECT COUNT... article" />
           </folding>
         </state>
       </provider>
