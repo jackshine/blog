@@ -18,7 +18,7 @@
         </jdbcConnection>
 
         <javaModelGenerator targetPackage="com.liuyanzhao.blog.model"
-                            targetProject="E:\\wuznuan\\blog\\api\\src\\main\\java"/>
+                            targetProject="E:\\wuznuan\\blog\\src\\main\\java"/>
 
         <sqlMapGenerator targetPackage="mapper"
                          targetProject="E:\\wuznuan\\blog\\src\\main\\resources"/>
