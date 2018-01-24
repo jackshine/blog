@@ -5,8 +5,11 @@
 *.ear
 *.iml
 *.ipr
-*.idea
+.gitignore
 /libraries
+/artifacts
+/libraries
+.idea/*
 /bin
 .*
 !.gitignore

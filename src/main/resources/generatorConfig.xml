@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="Mysql" targetRuntime="MyBatis3">
+
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
+            <!-- caseSensitive默认false，当数据库表名区分大小写时，可以将该属性设置为true -->
+            <property name="caseSensitive" value="false"/>
+        </plugin>
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://120.78.166.147:3306/blog?characterEncoding=utf-8"
+                        userId="root"
+                        password="root">
+        </jdbcConnection>
+
+        <javaModelGenerator targetPackage="com.liuyanzhao.blog.model"
+                            targetProject="E:\\wuznuan\\blog\\api\\src\\main\\java"/>
+
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject="E:\\wuznuan\\blog\\src\\main\\resources"/>
+
+        <javaClientGenerator targetPackage="com.liuyanzhao.blog.dao"
+                             targetProject="E:\\wuznuan\\blog\\src\\main\\java" type="XMLMAPPER" />
+
+
+        <table tableName="article" domainObjectName="Article" ></table>
+        <table tableName="category" domainObjectName="Category" ></table>
+        <table tableName="link" domainObjectName="Link" ></table>
+        <table tableName="menu" domainObjectName="Menu" ></table>
+        <table tableName="notice" domainObjectName="Notice" ></table>
+        <table tableName="options" domainObjectName="Options" ></table>
+        <table tableName="page" domainObjectName="Page" ></table>
+        <table tableName="tag" domainObjectName="Tag" ></table>
+        <table tableName="user" domainObjectName="User" ></table>
+
+
+
+
+
+    </context>
+</generatorConfiguration>
